@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
 .font {
-	text-align:center;
 	font-family: 'Open Sans Condensed', sans-serif;
 	line-height: 1.5em;
 	letter-spacing: 2px;
@@ -39,8 +38,3 @@ img {
 #title {
 	text-decoration: underline;
 }
-
-#main { 
-	width: 40em;
-	margin: 2em auto;
- }
