@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Ideal Consulting</title>
+	<link rel="stylesheet" tpye="text/css" href="css/style.css"/>
+	<link rel="stylesheet" tpye="text/css" href="css/index.css"/>
+</head>
+<body>
+	<header> 
+		<nav>
+		<div class="container">
+    		<div class="logo">
+       		 <a href="index.html"><img src="images/ideallogo.png" alt="logo" title="Ideal logo"></a>
+    		</div>
+		<div class="navbar">
+
+		<div class="icon-bar" onclick="Show()">
+		    <i></i>
+		    <i></i>
+		    <i></i>
+		</div>
+
+		<ul id="nav-lists">
+			    <li class="close"><span onclick="Hide()">×</span></li>
+			    <li><a href="index.html" class="active">Home</a></li>
+			    <li><a href="services.html">Services</a></li>
+			    <li><a href="projects.html">Projects</a></li>
+			  	<li><a href="team.html">Team</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+
+
+		</div>
+		</div>
+		</nav>
+			<script>
+			var navList = document.getElementById("nav-lists");
+			function Show() {
+			navList.classList.add("_Menus-show");
+			}
+
+			function Hide(){
+			navList.classList.remove("_Menus-show");
+			}
+			</script>
+	</header>
+	<div class="header-img">
+		<div class="header-txt">
+			<h1>Working Where It Matters</h1>
+			<hr>
+			<p>Your Ideal Partner</p>
+			<button><a href="projects.html"></a>Find Out About Our Projects</button>
+	</div>
+	</div> 
+
+	<footer>
+	<ul class="ft-links">
+	<li>&copy; 2020 Ideal Consulting</li>
+      <li><a href="index.html">Home</a>|</li>
+      <li><a href="services.html">Services</a>|</li>
+      <li><a href="projects.html">Projects</a>|</li>
+       <li><a href="team.html">Team</a>|</li>
+      <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+	</footer>
+</body>
+</html>
